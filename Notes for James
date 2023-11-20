@@ -1,0 +1,4 @@
+To start React server: in client directory, run "npm run start"
+To start Express server, in server directory, run "npm run server" (server is the name of the script defined in the server-side package.json file)
+
+If you make changes to server stuff, restart the server by first killing it with ^C (control C) and then running "npm run server" in the server directory again. (though you shouldn't have to do this because nodemon should handle restarting the server after any changes to the server files)
