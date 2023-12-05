@@ -1,4 +1,14 @@
-To start React server: in client directory, run "npm run start"
-To start Express server, in server directory, run "npm run server" (server is the name of the script defined in the server-side package.json file)
+NEXT UP:
+
+- Get the OpenAI API to work successfully on the bm description analysis.
+- - Get this figured out: I'm successfully hitting the OpenAI API in chatgpt.js, but I'm getting this error in the API response: "429 You exceeded your current quota, please check your plan and billing details."
+- - Format response as JSON (customer segment, problems, etc) and print it out.
+
+How to get app running:
+
+- close any currently running terminal instances of server & client
+- cd into server and run "npm run server" (server is the name of the script defined in the server-side package.json file) (or "npm start" it seems works too)
+- cd into client and run "npm start"
+- then see the site on http://localhost:3000
 
 If you make changes to server stuff, restart the server by first killing it with ^C (control C) and then running "npm run server" in the server directory again. (though you shouldn't have to do this because nodemon should handle restarting the server after any changes to the server files)
